@@ -3,7 +3,7 @@
 <img alt="Papel" src="https://i.imgur.com/mY50UQf.png" align="right" width="110"/>
 <br>
 <h2>⚙️ Funcionalidades</h2>
-Três modos de jogo:
+Três modos de jogo: <br>
 Humano vs Humano <br>
 Humano vs Computador <br>
 Computador vs Computador <br>
