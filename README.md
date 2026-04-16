@@ -1,18 +1,18 @@
 # <h2>🖐️ 𝙹𝚘𝚔𝚎𝚗𝚙ô 👊
-### Um projeto simples em grupo, interativo do clássico jogo: Pedra, Papel e Tesoura, desenvolvido em [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)&nbsp;, com múltiplas modalidades de jogo e sistema de placar para um projeto desenvolvido na faculdade de ciência da computação.
+### Implementação interativa do jogo Pedra, Papel e Tesoura em [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)&nbsp;, com múltiplos modos de jogo e sistema de pontuação acumulativa para um projeto em grupo da faculdade de ciência da computação:
 <img alt="Papel" src="https://i.imgur.com/mY50UQf.png" align="right" width="110"/>
 <br>
 <h2>⚙️ Funcionalidades</h2>
-Três modos de jogo: <br>
-Humano vs Humano <br>
-Humano vs Computador <br>
-Computador vs Computador <br>
+🎮 Três modos de jogo:: <br>
+  - Humano vs Humano <br>
+  - Humano vs Computador <br>
+  - Computador vs Computador <br>
 <br> 
-Jogadas manuais ou aleatórias <br>
-Sistema de placar acumulado <br>
-Loop de partidas (jogar novamente ou sair) <br>
-Exibição do vencedor a cada rodada <br>
-Mensagem final com resultado geral <img alt="Tesoura" src="https://i.imgur.com/CE28ZlA.png" align="right" width="115"/>
+🔁 Loop de partidas <br>
+🧠 Jogadas aleatórias (IA simples <br>
+🏆 Sistema de pontuação acumulativa (jogar novamente ou sair) <br>
+📊 Resultado final ao encerrar o jogo <br>
+<img alt="Tesoura" src="https://i.imgur.com/CE28ZlA.png" align="right" width="115"/>
 <br>
 <h2>🖥️ Tecnologias utilizadas</h2> <img alt="Pedra" src="https://i.imgur.com/sFR0nCr.png" align="right" width="80"/>
 
