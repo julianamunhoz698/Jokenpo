@@ -7,7 +7,44 @@ print ("0: SAIR")
 modo = int (input("Digite o número do modo que gostaria de jogar:\n> "))
 #-
 # --------------- Helena: Humano x Humano --------
+ponto1 = 0
+ponto2 = 0
+while modo == 1:
+    print(f"Modo selecionado: Humano VS Humano")
+    print(f"Opções: \nPedra \nPapel \nTesoura")
 
+    jogador1 = str(input("Jogador 1: \n> "))
+    while jogador1.lower() != "pedra" and jogador1.lower() != "papel" and jogador1.lower() != "tesoura":
+        jogador1 = str(input("Jogador 1: \n> "))
+    jogador2 = str(input("Jogador 2: \n> "))
+    while jogador2.lower() != "pedra" and jogador2.lower() != "papel" and jogador2.lower() != "tesoura":
+        jogador2 = str(input("Jogador 2: \n> "))
+
+    if jogador1.lower() == jogador2.lower():
+        print("Empate!")
+    elif jogador1.lower() == "pedra" and jogador2.lower() == "papel":
+        print("Jogador 2 venceu!")
+        ponto2 += 1
+    elif jogador1.lower() == "papel" and jogador2.lower() == "pedra":
+        print("Jogador 1 venceu!")
+        ponto1 += 1
+    elif jogador1.lower() == "tesoura" and jogador2.lower() == "papel":
+        print("Jogador 1 venceu!")
+        ponto1 += 1
+    elif jogador1.lower() == "papel" and jogador2.lower() == "tesoura":
+        print("Jogador 2 venceu!")
+        ponto2 += 1
+    elif jogador1.lower() == "tesoura" and jogador2.lower() == "pedra":
+        print("Jogador 2 venceu!")
+        ponto2 += 1
+    elif jogador1.lower() == "pedra" and jogador2.lower() == "tesoura":
+        print("Jogador 1 venceu!")
+        ponto1 += 1
+    print(f"\nPontuação: {ponto1} X {ponto2}")
+    denovo = input("\nDeseja jogar novamente? [S/N] \n> ")
+    if denovo.lower() == "n":
+        print("Obrigada por jogar!")
+        break
 # --------------- Juliana: Computador x Humano ---
 
 # --------------- Paola: Computador x Computador -
