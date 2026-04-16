@@ -5,19 +5,19 @@ print ("2: Computador VS Humano ")
 print ("3: Computador VS Computador ")
 print ("0: SAIR")
 modo = int (input("Digite o número do modo que gostaria de jogar:\n> "))
-#-
+
 # --------------- Helena: Humano x Humano --------
 
 # --------------- Juliana: Computador x Humano ---
 
 # --------------- Paola: Computador x Computador -
-import random #Importada uma biblioteca p fzer números aleatórios
+import random
 
 pontos1 = 0
 pontos2 = 0
 
 if modo == 3:
-    print("MODO: Computador VS ComputADOR selecionado")
+    print("MODO: Computador VS Computador selecionado")
 
     while True:
         jogada1 = random.randint(1, 3)
@@ -40,7 +40,7 @@ if modo == 3:
         if jogada1 == jogada2:
             print("Empate!")
 
-        elif (jogada1 == 1 and jogada2 == 3) or \ #o "\" diz q essa linha ainda não acabou, continua na próxima
+        elif (jogada1 == 1 and jogada2 == 3) or \
              (jogada1 == 3 and jogada2 == 2) or \
              (jogada1 == 2 and jogada2 == 1):
             print("Jogador 1 venceu!")
@@ -54,6 +54,9 @@ if modo == 3:
         if denovo != "y":
             break
 
-    print("\n RESULTADO FINAL ")
+    print("\n=== RESULTADO FINAL ===")
     print(f"Jogador 1: {pontos1}")
     print(f"Jogador 2: {pontos2}")
+
+    print ("\nObrigada por jogar!\n")
+    print ("Alunas responsáveis:\nPaola R. Leonardi\nHelena Gomes\nJuliana Munhoz")
