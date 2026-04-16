@@ -56,6 +56,7 @@ pontos2 = 0
 
 if modo == 3:
     print("MODO: Computador VS Computador selecionado")
+    print(f"==OPÇÕES== \n👊Pedra \n🖐️Papel \n✌️Tesoura\n")
 
     while True:
         jogada1 = random.randint(1, 3)
@@ -86,7 +87,7 @@ if modo == 3:
         else:
             print("Jogador 2 venceu!")
             pontos2 += 1
-        print(f"Placar final: {pontos1} x {pontos2}")
+        print(f"Placar atual: {pontos1} x {pontos2}\n")
         denovo = str (input("Deseja jogar novamente? N/Y\n>").lower())
 
         if denovo.lower() == "n":
