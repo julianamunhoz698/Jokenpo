@@ -47,7 +47,83 @@ while modo == 1:
         print("\nObrigada por jogar! \nAlunas responsáveis:\nPaola R. Leonardi\nHelena Gomes\nJuliana Munhoz")
         break
 # --------------- Juliana: Computador x Humano ---
+#Humano x Computador - Juliana
 
+
+import random
+
+#Variáveis
+pontuacao_usuario = 0
+pontuacao_computador = 0
+vitorias = 0
+derrotas = 0
+empates = 0
+partidas = 0
+pedra = 1
+papel = 2
+tesoura = 3
+
+while True:
+    print ("Escolha uma das três opções: pedra(1), papel(2) ou tesoura(3)")
+    usuario = int(input("Sua escolha: "))
+
+    computador = random.randint(1, 3)
+    print(f"O computador jogou: {computador}")
+
+    partidas +=1
+
+    if usuario == computador:
+        print("Empate!")
+        empates +=1
+        pontuacao_usuario +=1
+        pontuacao_computador +=1
+    elif computador == 1:
+        if usuario == 2:
+            print("Você venceu!")
+            vitorias +=1
+            pontuacao_usuario +=1
+        elif usuario == 3:
+            print("Você perdeu!")
+            derrotas +=1
+            pontuacao_computador +=1
+        else:
+            print("Jogada inválida!")
+    elif computador == 2:
+        if usuario == 1:
+            print("Você perdeu!")
+            derrotas +=1
+            pontuacao_computador +=1
+        elif usuario == 3:
+            print("Você venceu!")
+            vitorias +=1
+            pontuacao_usuario +=1
+        else:
+            print("Jogada inválida!")
+    elif computador == 3:
+        if usuario == 1:
+            print("Você venceu!")
+            vitorias +=1
+            pontuacao_usuario +=1
+        elif usuario == 2:
+            print("Você perdeu!")
+            derrotas +=1
+            pontuacao_computador +=1
+        else:
+            print("Jogada inválida!")
+
+    print (f"\n === Placar === \n Usuário x Computador \n {pontuacao_usuario} x {pontuacao_computador}")
+    print (f"\nVitórias: \n {vitorias}")
+    print (f"\nEmpates: \n {empates}")
+    print (f"\nderrotas: \n {derrotas}")
+    novamente = str(input("Deseja jogar outra partida? [sim/não] \n> ")).lower()
+    if novamente.lower() == "não":
+        print(f"\n=== Placar Final === \n Usuário x Computador \n {pontuacao_usuario} x {pontuacao_computador}")
+        print(f"\nVitórias: \n {vitorias}")
+        print(f"\nEmpates: \n {empates}")
+        print(f"\nderrotas: \n {derrotas}")
+        print (f"\npartidas: \n {partidas}")
+        print("\nObrigada por jogar! \n Trabalho feito por: \n Helena Gomes\n Juliana Munhoz\n Paola Leonardi")
+        break
 # --------------- Paola: Computador x Computador -
 import random
 
