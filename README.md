@@ -17,9 +17,9 @@
 
 <!-- Prints do prompt -->
 <p align="center">
-<img alt="Computador Vs Computador" src="https://i.imgur.com/jMjUbdO.png" width="250"/>
-<img alt="Humano Vs Computador" src="https://i.imgur.com/dcPlC4T.png" width="250"/>
-<img alt="Humano Vs Humano" src="https://i.imgur.com/X8xiowf.png" width="250"/>
+<img alt="Computador Vs Computador" src="https://i.imgur.com/jMjUbdO.png" width="200"/>
+<img alt="Humano Vs Computador" src="https://i.imgur.com/dcPlC4T.png" width="200"/>
+<img alt="Humano Vs Humano" src="https://i.imgur.com/X8xiowf.png" width="200"/>
 </p>
 <!-- Tecnologias -->
 <h2>🖥️ Tecnologias utilizadas</h2> <img alt="Pedra" src="https://i.imgur.com/sFR0nCr.png" align="right" width="80"/>
