@@ -46,7 +46,6 @@ while modo == 1:
         print(f"\n=== RESULTADO FINAL === \n JOGADOR 1 X JOGADOR 2 \n     {ponto1}     X     {ponto2}")
         print("\nObrigada por jogar! \nAlunas responsáveis:\nPaola R. Leonardi\nHelena Gomes\nJuliana Munhoz")
         break
-        
 # --------------- Juliana: Computador x Humano ---
 import random
 
@@ -120,7 +119,6 @@ while modo == 2:
         print (f"\npartidas: \n {partidas}")
         print("\nObrigada por jogar! \n Trabalho feito por: \n Helena Gomes\n Juliana Munhoz\n Paola Leonardi")
         break
-        
 # --------------- Paola: Computador x Computador -
 import random
 
@@ -169,8 +167,7 @@ if modo == 3:
         if denovo.lower() == "n":
 
             print("\n=== RESULTADO FINAL ===\n")
-            print(f"Computador 1: {pontos1}")
-            print(f"Computador 2: {pontos2}")
+            print(f"{pontos1} X {pontos2}")
             print(f"Empates: {empate}")
 
             print ("\nObrigada por jogar!\n")
