@@ -7,20 +7,23 @@
   - Humano vs Humano <br>
   - Humano vs Computador <br>
   - Computador vs Computador <br>
-<br> 
-🔁 Loop de partidas <br>
-🧠 Jogadas aleatórias (IA simples) <br>
-🏆 Sistema de pontuação acumulativa (jogar novamente ou sair) <br>
-📊 Resultado final ao encerrar o jogo <br>
-<img alt="Tesoura" src="https://i.imgur.com/CE28ZlA.png" align="right" width="115"/>
 <br>
-
 <!-- Prints do prompt -->
 <p align="center">
 <img alt="Computador Vs Computador" src="https://i.imgur.com/jMjUbdO.png" width="220"/>
 <img alt="Humano Vs Computador" src="https://i.imgur.com/dcPlC4T.png" width="220"/>
 <img alt="Humano Vs Humano" src="https://i.imgur.com/X8xiowf.png" width="220"/>
 </p>
+🔁 Loop de partidas <br>
+🧠 Jogadas aleatórias (IA simples) <br>
+🏆 Sistema de pontuação acumulativa (jogar novamente ou sair) <br> 
+📊 Resultado final ao encerrar o jogo <br>
+<img alt="Tesoura" src="https://i.imgur.com/CE28ZlA.png" align="right" width="115"/>
+<br>
+<img alt="Menú" src="https://i.imgur.com/8gQNegx.jpeg" align=right width="450"/>
+<img alt="Placar Final" src="https://i.imgur.com/Iowz8nE.jpeg" align=center width="220"/> 
+<img alt="Jogar Novamente?" src="https://i.imgur.com/Y0p2sq3.jpeg" align=center width="220"/>
+
 <!-- Tecnologias -->
 <h2>🖥️ Tecnologias utilizadas</h2> <img alt="Pedra" src="https://i.imgur.com/sFR0nCr.png" align="right" width="80"/>
 
