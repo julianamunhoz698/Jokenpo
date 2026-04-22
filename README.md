@@ -10,9 +10,9 @@
 <br>
 <!-- Prints do prompt -->
 <p align="center">
-<img alt="Computador Vs Computador" src="https://i.imgur.com/jMjUbdO.png" width="220"/>
-<img alt="Humano Vs Computador" src="https://i.imgur.com/dcPlC4T.png" width="220"/>
-<img alt="Humano Vs Humano" src="https://i.imgur.com/3D2rjTG.png" width="220"/>
+<img alt="Computador Vs Computador" src="https://i.imgur.com/jMjUbdO.png" width="300"/>
+<img alt="Humano Vs Computador" src="https://i.imgur.com/dcPlC4T.png" width="251"/>
+<img alt="Humano Vs Humano" src="https://i.imgur.com/3D2rjTG.png" width="195"/>
 </p>
 🔁 Loop de partidas <br>
 🧠 Jogadas aleatórias (IA simples) <br>
