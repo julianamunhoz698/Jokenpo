@@ -14,32 +14,32 @@ while modo == 1:
     print(f"\nMODO: Humano VS Humano selecionado")
     print(f"==OPÇÕES== \n1: 👊Pedra \n2: 🖐️Papel \n3: ✌️Tesoura")
 
-    jogador1 = str(input("\nJogador 1: \n> "))
-    while jogador1.lower() != 1 and jogador1.lower() != 2 and jogador1.lower() != 3:
-        jogador1 = str(input("\nJogador 1: \n> "))
-    jogador2 = str(input("\nJogador 2: \n> "))
-    while jogador2.lower() != 1 and jogador2.lower() != 2 and jogador2.lower() != 3:
-        jogador2 = str(input("\nJogador 2: \n> "))
+    jogador1 = int(input("\nJogador 1: \n> "))
+    while jogador1 != 1 and jogador1 != 2 and jogador1 != 3:
+        jogador1 = input("\nJogador 1: \n> ")
+    jogador2 = input("\nJogador 2: \n> ")
+    while jogador2 != 1 and jogador2 != 2 and jogador2 != 3:
+        jogador2 = input("\nJogador 2: \n> ")
 
-    if jogador1.lower() == jogador2.lower():
+    if jogador1 == jogador2:
         print("Empate!")
         empate += 1
-    elif jogador1.lower() == 1 and jogador2.lower() == 2:
+    elif jogador1 == 1 and jogador2 == 2:
         print("Jogador 2 venceu!")
         ponto2 += 1
-    elif jogador1.lower() == 2 and jogador2.lower() == 1:
+    elif jogador1 == 2 and jogador2 == 1:
         print("Jogador 1 venceu!")
         ponto1 += 1
-    elif jogador1.lower() == 3 and jogador2.lower() == 2:
+    elif jogador1 == 3 and jogador2 == 2:
         print("Jogador 1 venceu!")
         ponto1 += 1
-    elif jogador1.lower() == 2 and jogador2.lower() == 3:
+    elif jogador1 == 2 and jogador2 == 3:
         print("Jogador 2 venceu!")
         ponto2 += 1
-    elif jogador1.lower() == 3 and jogador2.lower() == 1:
+    elif jogador1 == 3 and jogador2 == 1:
         print("Jogador 2 venceu!")
         ponto2 += 1
-    elif jogador1.lower() == 1 and jogador2.lower() == 3:
+    elif jogador1 == 1 and jogador2 == 3:
         print("Jogador 1 venceu!")
         ponto1 += 1
     print(f"\n== PLACAR == \n  {ponto1} X {ponto2}")
