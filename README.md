@@ -21,7 +21,7 @@
 <img alt="Tesoura" src="https://i.imgur.com/CE28ZlA.png" align="right" width="115"/>
 <br>
 <img alt="Menú" src="https://i.imgur.com/8gQNegx.jpeg" align=right width="450"/>
-<img alt="Placar Final" src="https://i.imgur.com/Iowz8nE.jpeg" align=center width="220"/> 
+<img alt="Placar Final" src="https://i.imgur.com/8cUs0mF.png" align=center width="220"/> 
 <img alt="Jogar Novamente?" src="https://i.imgur.com/Y0p2sq3.jpeg" align=center width="220"/>
 
 <!-- Tecnologias -->
